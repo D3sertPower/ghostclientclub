@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ghostclient - VALORANT</title>
+    <title>ghostclient.club</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <style>
         /* Customizable snowflake styling */
         body {
             background-image: url('ghostclient.gif');
+            background-color: black;
             background-size: cover;
+            background-repeat: no-repeat;
             background-position: right 0px top -100px;
             overflow: hidden;
         }
@@ -78,15 +81,15 @@
             bottom: 300px;
             left: 50%;
             transform: translateX(-50%);
-	    display: none;
+            display: none;
             cursor: pointer;
             color: #fff;
             text-decoration: none;
             font-family: Monaco, Monospace;
-            font-size: 1.2em;
+            font-size: 1.5em;
             text-shadow: 0 0 5px #000;
             z-index: 9999;
-	    text-decoration: underline;
+            text-decoration: underline;
         }
         #blur-background {
             position: fixed;
@@ -110,12 +113,16 @@
             cursor: pointer;
             text-shadow: 0 0 5px #000;
         }
-
-
+	.discord {
+  	    display: block;
+  	    margin-left: auto;
+  	    margin-right: auto;
+ 	    margin-top: 700px; 
+  	    width: 200px;
+	}
     </style>
 </head>
 <body>  
-    
     <div class="snowflakes" aria-hidden="true">
         <div class="snowflake"><div class="inner">❅</div></div>
         <div class="snowflake"><div class="inner">❅</div></div>
@@ -130,32 +137,32 @@
         <div class="snowflake"><div class="inner">❅</div></div>
         <div class="snowflake"><div class="inner">❅</div></div>
     </div>
- <div id="download-link" href="#">Download</a></div>
+    <div id="download-link" href="#">Download</div>
     <div id="blur-background">
         <div id="click-me">Click me</div>
     </div>
-   
-
+    
+    <!-- Add discord.png here -->
+    <img src="discord.png" alt="Discord" class="discord">
 
     <audio id="theme" src="theme.mp3"></audio>
-
 
     <script>
         document.getElementById('click-me').addEventListener('click', function() {
             document.getElementById('theme').play();
             document.getElementById('blur-background').style.display = 'none';
-	    document.getElementById('download-link').style.display = 'inline';
+            document.getElementById('download-link').style.display = 'inline';
         });
         document.getElementById('download-link').addEventListener('click', function() {
-	window.open('https://download1321.mediafire.com/hwa97vnysmjglhlrxpI3Ok-HJ2XKZUlI3oHe89bBhlJPoYdHSO7V2s_zMgAEui4S-PkDD1g3NF93PrIur68bCFydxn6Cuns6YAs7Z33S-ID8MUJYp51M-6Kvsvs8sQkhHTUUcniJwIBSgHWkXRGk37Y5jxFKqq3ytl_aLKyqbkrxPWI/n5sgdtob86lseo7/Ghostclient-loader.rar', '_blank').focus();
+            window.open('https://send.zcyph.cc/download/f385ffe323422d78/#5rAp70xZe-6BlyRDTd3WfA', '_blank').focus();
         });
         document.getElementById('blur-background').addEventListener('click', function() {
             document.getElementById('theme').play();
             document.getElementById('blur-background').style.display = 'none';
-	    document.getElementById('download-link').style.display = 'inline';
+            document.getElementById('download-link').style.display = 'inline';
         });
-	let theme = document.getElementById('theme');
-	theme.volume = 0.4
+        let theme = document.getElementById('theme');
+        theme.volume = 0.4;
     </script>
 </body>
 </html>
