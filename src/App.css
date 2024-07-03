@@ -323,11 +323,19 @@ top: 715px;
 }
 	.discord {
   	    display: block;
-  	    margin-left: auto;
+  	    margin-left: 500px;
+  	    margin-right: auto;
   	    margin-right: auto;
  	    margin-top: 700px; 
   	    width: 400px;
 	}
+	.discord23 {
+  	    display: block;
+  	    margin-left: 990px;
+  	    width: 400px;
+	    margin-top: -205px;
+	}
+
 .download {
 color: white;
     font-size: 17px;

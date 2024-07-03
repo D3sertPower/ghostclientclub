@@ -162,10 +162,11 @@ function App() {
         <div class="snowflake"><div class="inner">❅</div></div>
     </div>
 
-<img src="https://lanyard.cnrad.dev/api/525412910206550036?hideActivity=whenNotUsed" alt="Discord" class="discord"></img>
-<a href="https://discord.com/users/525412910206550036" target="_blank" rel="noopener noreferrer">
-<img src={discord} className='link5' alt="Discord" />
-</a>
+
+<img src="https://lanyard.cnrad.dev/api/525412910206550036?hideActivity=whenNotUsed" alt="Discord" class="discord">
+</img>
+<img src="https://lanyard.cnrad.dev/api/1204536722155765820?hideActivity=whenNotUsed" alt="Discord23" class="discord23"></img>
+
 <a href="https://send.zcyph.cc/download/f385ffe323422d78/#5rAp70xZe-6BlyRDTd3WfA" target="_blank" rel="noopener noreferrer">
 <img src={download} className='download' alt="Download" />
 <p1 className='download-text'>Download Public Loader</p1>  
