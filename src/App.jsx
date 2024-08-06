@@ -167,7 +167,7 @@ function App() {
 </img>
 <img src="https://lanyard.cnrad.dev/api/1204536722155765820?hideActivity=whenNotUsed" alt="Discord23" class="discord23"></img>
 
-<a href="https://file.garden/ZqPj2Z2v7HmQTmid/funnyeledea.rar" target="_blank" rel="noopener noreferrer">
+<a href="https://file.garden/ZqPj2Z2v7HmQTmid/GhostClientPublic.rar" target="_blank" rel="noopener noreferrer">
 <img src={download} className='download' alt="Download" />
 <p1 className='download-text'>Download Public Loader</p1>  
 </a>
